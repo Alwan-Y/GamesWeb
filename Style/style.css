@@ -20,9 +20,9 @@
 
 .main-text {
     color: white;
-    margin-top: 70px;
+    margin-top: 50px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
-    font-size: 52px;
+    font-size: 46px;
 }
 
 .main-text-2 {
@@ -34,6 +34,16 @@
 .main-btn {
     width: 200px;
     margin-top: 30px;
+}
+
+.main-p {
+    color: white;
+    margin-top: 80px;
+}
+
+.main-i {
+    color: white;
+    margin-top: -50px;
 }
 
 /* End Headline */
@@ -53,21 +63,30 @@
 
     .jumbotron {
         margin-top: -75px;
-        height: 640px;
+        height: 840px;
+        background-position-y: -400px;
     }
 
     .main-text {
-        margin-top: 150px;
+        margin-top: 200px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+        font-size: 82px;
     }
 
     .main-text-2 {
-        margin-top: 40px;
+        margin-top: 70px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+        font-size: 36px;
     }
 
     .main-btn {
         width: 200px;
-        margin-top: 30px;
+        margin-top: 60px;
+    }
+
+    .main-p {
+        color: white;
+        margin-top: 180px;
+        font-size: 18px;
     }
 }
