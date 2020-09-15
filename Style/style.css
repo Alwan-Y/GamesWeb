@@ -1,0 +1,73 @@
+.nav-item {
+    margin-right: 20px;
+}
+
+.font {
+    color: white !important;
+}
+
+.nav-bg {
+    background-color: black;
+}
+
+/* Headline */
+.jumbotron {
+    background-image: url(../assets/main-bg.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+}
+
+.main-text {
+    color: white;
+    margin-top: 70px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+    font-size: 52px;
+}
+
+.main-text-2 {
+    color: white;
+    margin-top: 40px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+}
+
+.main-btn {
+    width: 200px;
+    margin-top: 30px;
+}
+
+/* End Headline */
+
+/* Carousel */
+
+
+/* Desktop */
+@media (min-width: 992px) {
+    .font {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+    }
+
+    .nav-bg {
+        background-color: transparent;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .main-text {
+        margin-top: 150px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+    }
+
+    .main-text-2 {
+        margin-top: 40px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 7);
+    }
+
+    .main-btn {
+        width: 200px;
+        margin-top: 30px;
+    }
+}
