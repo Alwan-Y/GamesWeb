@@ -86,11 +86,16 @@
 
 /* Top Scorer */
 .fifth-jumbotron {
-    background-image: url(../assets/top-score-bg.png);
+    background-image: url(../assets/newsletter-bg.jpg);
     background-size: cover;
     background-color: grey;
     height: 540px;
     margin-top: -35px;
+}
+
+.main-btn-2 {
+    width: 200px;
+    margin-top: 30px !important;
 }
 
 /* Footer */
@@ -169,7 +174,7 @@
         margin-top: 170px;
     }
 
-    .car-img {
+    e .car-img {
         width: 700px !important;
     }
 
@@ -263,7 +268,6 @@
 
     /* Top Scorer */
     .fifth-jumbotron {
-        background-image: url(../assets/top-score-bg.png);
         background-size: cover;
         background-color: grey;
         height: 840px;
@@ -271,14 +275,17 @@
     }
 
     .text-scores-title {
-        font-size: 32pt;
+        font-size: 48pt;
+        letter-spacing: 1.15pt;
+        margin-top: 20px;
     }
 
     .text-scores-desc {
-        font-size: 24pt;
+        font-size: 12pt;
+        font-weight: 400;
+        word-spacing: 2pt;
+        letter-spacing: 1.15pt;
     }
-
-    .btn-score {}
 
     .card-custom {
         background-color: #1e2200;
@@ -287,9 +294,11 @@
 
     .card-img {
         margin-top: 20px;
-        margin-left: 20px;
-        border-radius: 80px 80px !important;
+        margin-left: 32px;
+        border-radius: 24px 24px !important;
+        height: 50px;
         width: auto;
+        box-shadow: orange solid !important;
     }
 
     .card-icon {
@@ -314,17 +323,18 @@
         font-size: 12pt;
         font-weight: 300;
         word-spacing: 1.15pt;
-        margin-top: 0px;
+        margin-top: -10px;
     }
 
     .card-caption {
-        font-size: 12pt;
+        font-size: 10pt;
         font-weight: 400;
         margin-left: 50px;
         margin-bottom: 0px;
     }
 
     .card-datetime {
+        font-size: 9pt;
         margin-left: 50px
     }
 
@@ -334,6 +344,16 @@
         background-color: #2D2926;
         border-radius: 8px 8px;
     }
+
+    .col-main {
+        margin-top: 100px;
+    }
+
+    .btn-score {
+        margin-top: 16px;
+        width: 100px !important;
+    }
+
 
     /* Footer */
     .sixth-jumbotron {
