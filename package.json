@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ."
+    "start": "http-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.5.2",
-    "bs-stepper": "^1.7.0"
+    "bootstrap": "^4.5.2"
   },
   "devDependencies": {
     "http-server": "^0.12.3"
