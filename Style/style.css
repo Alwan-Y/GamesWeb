@@ -188,6 +188,7 @@ h1 h2 h3 h4 h5 h6 {
     border-left: 2px solid white;
     height: 100%;
     position: absolute;
+
     top: 0;
     left: 0;
 }
@@ -263,7 +264,7 @@ h1 h2 h3 h4 h5 h6 {
     background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(50%, rgba(0, 0, 0, 0.8)), to(black)), url(../assets/top-score-bg.png);
     background-image: linear-gradient(black 0%, rgba(0, 0, 0, 0.8) 50%, black 100%), url(../assets/top-score-bg.png);
     color: black !important;
-    height: 1000px;
+    height: 850px;
     margin-top: -35px;
 }
 
@@ -284,9 +285,54 @@ h1 h2 h3 h4 h5 h6 {
     margin-top: 100px;
 }
 
-.card-box {
-    background: green;
+.ico-twitter {
+    margin-top: 16px;
+    margin-left: 26px;
 }
+
+.card-box {
+    background: #1a1b1c;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.card-img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 10;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card-name {
+    color: orange !important;
+    font-weight: bold !important;
+    font-size: 15pt !important;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.card-parent-caption {
+    margin-left: 30px
+}
+
+.card-caption,
+.card-datetime {
+    font-size: 8pt;
+    font-weight: 300;
+    color: grey;
+}
+
+.fo-2 {
+    margin-top: -20px;
+}
+
+.rt {
+    margin-top: -10px;
+}
+
 
 /* Footer */
 .sixth-jumbotron {
@@ -305,6 +351,11 @@ h1 h2 h3 h4 h5 h6 {
     font-size: 9pt !important;
     color: white;
     text-align: justify;
+}
+
+.btn-mobile {
+    font-size: 0.92rem;
+    font-weight: 300;
 }
 
 /* Desktop */
@@ -648,6 +699,10 @@ h1 h2 h3 h4 h5 h6 {
 
     .ml-cus-2 {
         margin-left: 50px;
+    }
+
+    .fo-2 {
+        margin-top: 0px;
     }
 
     /* Footer */
