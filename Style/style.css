@@ -228,7 +228,6 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .main-btn-2 {
-    width: 200px;
     margin-top: 30px;
 }
 
@@ -293,7 +292,7 @@ h1 h2 h3 h4 h5 h6 {
 .card-box {
     background: #1a1b1c;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .card-img {
@@ -579,6 +578,11 @@ h1 h2 h3 h4 h5 h6 {
         color: rgb(211, 140, 8) !important;
     }
 
+    .cus-tops a {
+        width: 50%;
+        margin-top: 30px;
+    }
+
     /* Top Scorer */
     .fifth-jumbotron {
         background-size: cover;
@@ -652,6 +656,10 @@ h1 h2 h3 h4 h5 h6 {
         margin-top: -10px;
     }
 
+    .card-parent-caption {
+        margin-left: -26px;
+    }
+
     .card-caption {
         font-size: 10pt;
         font-weight: 400;
@@ -703,6 +711,10 @@ h1 h2 h3 h4 h5 h6 {
 
     .fo-2 {
         margin-top: 0px;
+    }
+
+    .rt {
+        margin-top: 10px;
     }
 
     /* Footer */
