@@ -51,7 +51,19 @@ h1 h2 h3 h4 h5 h6 {
     margin-top: 30px;
 }
 
+.main-btn:hover {
+    width: 300px;
+    margin-top: 30px;
+}
+
 .main-p {
+    color: white;
+    margin-top: 180px;
+}
+
+.main-p:hover {
+    font-weight: bold;
+    font-size: 16pt;
     color: white;
     margin-top: 180px;
 }
@@ -404,10 +416,21 @@ h1 h2 h3 h4 h5 h6 {
         margin-top: 60px;
     }
 
+    .main-btn:hover {
+        width: 300px;
+        margin-top: 60px;
+    }
+
     .main-p {
         color: white;
         margin-top: 200px;
         font-size: 18pt;
+    }
+
+    .main-p:hover {
+        color: white;
+        margin-top: 200px;
+        font-size: 24pt;
     }
 
     /* END Jumbotron */
